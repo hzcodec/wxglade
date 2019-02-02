@@ -52,7 +52,7 @@ class MainFrame(wx.Frame):
         self.btn_stop = wx.Button(self, wx.ID_ANY, "Stop")
         self.button_3 = wx.Button(self, wx.ID_ANY, "button_3")
         self.sld_speed = wx.Slider(self, wx.ID_ANY, 0, 0, 100, style=wx.SL_AUTOTICKS | wx.SL_HORIZONTAL | wx.SL_LABELS)
-        self.bitmap_1 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("/home/heinz.samuelsson/python/wxglade/test4/aeroseum_logo_100x119.png", wx.BITMAP_TYPE_ANY))
+        self.bitmap_1 = wx.StaticBitmap(self, wx.ID_ANY, wx.Bitmap("aeroseum_logo_100x119.png", wx.BITMAP_TYPE_ANY))
 
         self.__set_properties()
         self.__do_layout()
